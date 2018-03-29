@@ -1,0 +1,112 @@
+.header{
+    background-color: black;
+    height:150px;
+    
+}
+main{
+    background-color: brown;
+    padding: 15px;
+    padding-top:10px;
+}
+
+h2{
+    font-size: 30px;
+    color: white; 
+    text-shadow: 2px 2px black; 
+}
+
+.header .nav{
+        float: right;
+        display: inline-block; 
+        color: white;
+        margin: 0 10px;
+        background-color: orange;
+        padding: 2px 4px;
+   
+    }
+.header #logo{
+        font-family:'Oswald', sans-serif;
+        display:inline-block;
+        float: left;
+        color: white;
+        font-weight: 500;
+        font-size: 70px;
+        text-shadow: 2px 2px 4px yellow;
+        
+        
+    }
+.header .nav .nav-link{
+        display: inline-block;
+        color: white;
+        background-color: black; 
+        margin: 0 10px;
+    
+}
+
+.fa-address-book{
+    font-size: 40px;
+    color: red;
+}
+.fa-cloud{
+font-size:24px;
+color: blue;
+}
+
+.fa-user-circle{
+    font-size: 30px;
+    font-stretch: 60px ;
+    color: green;
+    float: right;
+}
+.social-icon{ 
+    height:30px ;
+    float: right;
+}
+/*ABOUT PAGE STYLES*/
+.content-1{
+    margin:10px;
+}
+.left{
+    float: left;
+    display: inline-block;
+}
+.left .content-img{
+    height: 150px;
+}
+
+.right p{ 
+    margin: 0 10px;
+    
+}
+.right{
+    display:inline-block;
+    width:70%;
+}
+.content-2{
+    margin: 10px;
+}
+.paragraph-3 div{
+    display: inline-block;
+    width:30%;
+    margin: 10px;
+}
+.paragraph-4 p{
+    text-align: left;
+    width:150px;
+    color: white ;
+}
+.paragraph-5 p{
+    text-align: left; 
+    width: 150px;
+    color: orange;
+}
+/*contact styles*/ 
+.location p{
+    display: inline-block;
+}
+.info p {
+    width: 25%;
+}
+.info .map{
+    float: right; 
+}
